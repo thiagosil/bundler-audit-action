@@ -1,4 +1,4 @@
-FROM ruby:2.7.0-alpine
+FROM ruby:3.1.1-alpine3.14
 
 COPY LICENSE README.md /
 COPY entrypoint.sh /entrypoint.sh
